@@ -1,0 +1,102 @@
+<!--cheat-sheet-html -->
+<!--HTML Shell: html, head, body -->
+<!DOCTYPE html> <!-- DOCTYPE is to let the browser know that we are using html -->
+<html> <!-- start of html document -->
+<head> <!-- start of head section: configuration -->
+	<title>Cheat Sheet</title> <!-- title on the browser's tab: goes inside head section -->
+	<link rel="stylesheet" type="text/css" href="cheat-sheet.css"> <!-- link brings all css styling from my css file into this html file, href attribute has the name and path of the css file -->
+	<!-- style tag is to add internal styles -->
+	<style type="text/css">
+		/* margin properties in pixels*/
+		div {
+			margin-top: 100px;
+			margin-right: 150px;
+			margin-bottom: 50px;
+			margin-left: 200px;
+			background-color: rgb(117, 230, 230);
+			border-style: dashed;
+			border-radius: 10px; /* border-radius is to add curve corners to the div */
+			}
+		</style>
+</head><!-- ending of head section -->
+<body> <!-- start of body section: visible  section of the page -->
+<!-- hx is for headings-->
+<h1 class="heading">Heading 1</h1><!-- h1 tag is using a class style (see css file) -->
+<h2 class="heading">Heading 2</h2>
+<h3 class="heading">Heading 3</h3>
+<h4 class="heading">Heading 4</h4>
+<h5 class="heading">Heading 5</h5>
+<h6 class="heading">Heading 6</h6>
+<p id="my_paragraph">
+
+눈을 떠 바라본 니 모습은
+다가갈 수 없을 듯 눈부셔
+너처럼 되고 싶던 내 맘이
+너로 가득 채워져 물들어
+점점 더 태양에 다가서려
+타버린 날개 짓 속에
+초라한 내 모습 그때 겨우
+알게 된 내 new days
+All my life, by my life
+나를 봐줘 이제
+All my life, by my life
+달콤한 유혹처럼 피어난
+내 안에 또 다른 내 모습
+거울 안에 비춰진 내 얼굴이
+누구인지 나에게 묻게 돼
+차가운 새벽녘 공기 속에
+비로소야 뛰는 심장
+당당히 날 바라보던 순간
+알게 된 내 new face
+All my life, by my life
+날아올라 이제
+All my life, by my life</p>
+<!-- img for images: src atrribute to point to the image, alt is the text to be displayed instead of the image, height ti adjust the height of the image (pixels), width to adjust the width of the image -->
+<img src="images/yvess.png" alt="cute" height="500" width="430">
+<ul type="circle"> <!-- Some ul types are disc (bullet point), square, circle -->
+	<!-- Li (list element) for every element on the list -->
+	<li>Ooooo</li> 
+	<li>Aaaaa</li>
+	<li>Yeaaaa</li>
+	<ol type="1"> <!-- Types are 1, A, a , I, i -->
+		<li>First Class</li>
+		<li>Second Class</li>
+		<li>Third Class</li>
+	</ol> 
+	<br>
+
+
+     <ol type="i">
+		<li>First Class</li>
+		<li>Second Class</li>
+		<li>Third Class</li>
+	</ol>	
+<br>
+
+	<ol type="a">
+		<li>First Class</li>
+		<li>Second Class</li>
+		<li>Third Class</li>
+<!-- Indentation for list (list within list) -->
+	<ol type="A">
+		<li> CS Class
+			<ol>
+				<li> HTML </li>
+				<li> CSS </li>
+				<li> Javascript </li></ol>
+<!-- a is for anchor (hyperlinks) -->
+<a href="https://0x0800.github.io/2048-CUPCAKES/">gamer life</a> <!-- absolute hyperlink -->
+<br> <!-- line break -->
+<a href="https://www.youtube.com/watch?v=6uJf2IT2Zh8">real music</a>
+<br>
+<a href="cheat-sheet.html">haha..</a> <!-- relative hyperlink -->
+<!-- div is to indicate an area within the web page -->
+<div>
+	<p>alwaysss allways all myy lifeeeeeeee</p>
+</div>
+
+		 </li>
+		 
+	</ol>
+</body> <!-- ending of body section -->
+</html> <!-- end of html document -->

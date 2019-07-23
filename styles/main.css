@@ -1,0 +1,22 @@
+/*main.css*/
+
+body {
+	background-color: pink;
+}
+h1 {
+	color: rgb(206, 158, 222);
+	font-family: 'Domine', serif;
+
+}
+ol{
+	font-weight: bold;
+	color:white;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+#my_nav_bar
+{background-color: rgb(206, 158, 222);
+ border-style:dashed;
+border-color: white;}
