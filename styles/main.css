@@ -6,7 +6,6 @@ body {
 h1 {
 	color: rgb(206, 158, 222);
 	font-family: 'Domine', serif;
-
 }
 .nav {
 	text-align: center;
@@ -22,20 +21,36 @@ a {
 #my_nav_bar
 {background-color: rgb(206, 158, 222);
  border-style:dashed;
-border-color: white;}
+border-color: white;
+text-align: center;}
 p {
-
+color: white;
 }
-#irritating {
+#img-float {
 	float: left;
 	margin:20px;
 }
 .yeaa {
-	margin: 35px;
-	padding: 25px;
+	margin: 30px;
+	padding: 20px;
 }
 #div-float{
 	overflow: auto;
 	border: solid 5px white;
 	background: rgb(206, 158, 222);
+}
+@media only screen and (max-width: 600px) {
+#img-float {
+	float: left;
+	margin:20px;
+}
+.yeaa {
+	margin: 30px;
+	padding: 20px;
+}
+#div-float{
+	overflow: auto;
+	border: solid 5px white;
+	background: rgb(206, 158, 222);
+}
 }
